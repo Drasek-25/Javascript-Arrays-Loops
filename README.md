@@ -1,0 +1,9 @@
+## Javascript Lab 2 ##
+# Arrays and loops #
+
+This was my second javascript lab from RCA. I learned alot during this lab.
+Biggest Takeaways:
+*	I had alot of fun on 3, creating a function to camelCase strings. I feel this may even be useful to me 			eventually.
+*	Doing the loops Lab 3, to create and shuffle a deck of cards was enjoyable, and i was happy i had solved 		it as quickly as I did. I only noticed when reviewing this for my .md, but the lab asked for 4 			loops to assign suits to decks, and I did it with two, I wonder which way would run more efficiently.
+*	I spent most of my time in this entire lab working on Loops 4. Conceptually this problem took me a while 		to work out, but i was constantly disapointed it took so log to get it working. I probably lost 4 hours 		trying to clone my array by initiualizng it into another variable, only to realize if an array is made 		this way it is affected by everything that affects the original array. Im not sure still if i was doing 		something wrong or not, but I had to write a function to loop through the original array and push each 		value to a new array, shortly after figuring that out and writting the function I had it working.
+*	Loop lab 5 gave me the most trouble after loops 4. I still have not figured out why this wont work, which 	is noticibale by the _tons of_ consol.log commands throghout. The issue is the money variable seems to be 	losing value to the air, ive seen .04 dissapear, ive seen the 2 decimal places dissapear, ive seen 1.11 	vganish from a number. I have tried using parseInt and .parseFloat to no avail, only their own unique 	issues of numbers loss. My guess is this has to do with how javascript handles floats that i am just not 	aware of. As such this is the first code I am unable to finish. Will seek help in class about this.
